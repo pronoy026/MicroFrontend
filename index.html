@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MentorOnDemand</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index_style.css">
+    <script src="scroll.js"></script>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">MentorOnDemand</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div id="navbarNavDropdown" class="navbar-collapse collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Dropdown link
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Home</a>
+                            <a class="dropdown-item" href="#">Courses</a>
+                            <a class="dropdown-item" href="#">About Us</a>
+                            <a class="dropdown-item" href="#">Contact Us</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li>
+                        <form class="form-inline" action="/action_page.php">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-search"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                        </form>
+                    </li>
+                    <!-- <li>
+                    <form class="form-inline" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-" type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-user"></i>&nbsp;&nbsp;Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- The banner section -->
+        <div class="container-fluid">
+            <div class="row bgheadings">
+                <div class="col-sm-6">
+                    <h2>Find mentors for</h2>
+                    <img class="img-fluid rounded" src="img/banner-heading-training-programs.jpg" alt="Chania" width="460" height="345">
+                    <div style="padding: 25px">
+                        <h4><i class="fa fa-arrow-right"></i> 1000+ Technical Courses you can opt for.</h4>
+                        <h4><i class="fa fa-arrow-right"></i> Choose your favourite mentor!</h4>
+                        <h4><i class="fa fa-arrow-right"></i> More than 1500+ vetted Mentors online!</h4>
+                        <h4><i class="fa fa-arrow-right"></i> Select personalized course structure.</h4>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h1 style="font-style: italic">Build your career with us!</h1>
+                    <h1 style="font-style: italic">Why wait?</h1>
+                    <img class="img-fluid rounded-circle" src="img/trainer.jpg" alt="Chania" width="460" height="345">
+                    <h1 style="font-style: italic">The best mentors are a click away!</h1>
+                </div>
+            </div>
+        </div>
+        <span></span>
+        <!-- The words to motivate section -->
+        <div class="container-fluid" style="padding: 100px">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-fluid rounded-circle" src="img/banner-computer-photoshop.jpg" alt="Chania" width="460" height="345">
+                </div>
+                <div class="col-sm-6" style="padding: 20px">
+                    <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #000;">
+                        Take the first step to be industry ready.
+                    </h1>
+                    <h2 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #000; font-style: italic">
+                        Find your mentor. Learn cutting-edge technologies out there with unparalleled guidance and create history!
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<div class="cotainer" style="padding: 50px">
+
+    <!-- scroll top button -->
+    <button class="btn btn-primary rounded-circle scroll-top float-right fixed" data-scroll="up" type="button">
+                <i class="fa fa-chevron-up"></i>
+                </button>
+
+</div>
+
+<!-- Footer -->
+<footer class="py-4 bg-dark text-white-50 bottom-fixed">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+        <!-- Social buttons -->
+        <ul class="list-inline text-center">
+            <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1">
+                    <i class="fa fa-facebook"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1">
+                    <i class="fa fa-twitter"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-gplus mx-1">
+                    <i class="fa fa-google-plus"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1">
+                    <i class="fa fa-linkedin"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-dribbble mx-1">
+                    <i class="fa fa-dribbble"> </i>
+                </a>
+            </li>
+        </ul>
+
+        <div class="container text-center">
+            <small>&copy; 2019 MentorOnDemand.com</small>
+        </div>
+</footer>
+
+</html>
